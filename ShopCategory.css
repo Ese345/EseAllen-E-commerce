@@ -1,0 +1,65 @@
+.shop-category {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .shopcategory-banner {
+    display: block;
+    margin: 0 auto 30px; /* Centered horizontally and added bottom margin */
+    width: 30%; /* Adjusted width for better responsiveness */
+  }
+  
+  .shopcategory-indexSort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0; /* Added vertical spacing */
+    padding: 0 20px; /* Added padding for better alignment */
+  }
+  
+  .shopcategory-sort {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shopcategory-sort p span {
+    font-weight: 600;
+  }
+  
+  .shopcategory-sort img {
+    width: 20px; /* Adjusted width for better alignment */
+    margin-left: 5px;
+  }
+  
+  .shopcategory-sort:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  .shopecategory-product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* More flexible grid */
+    gap: 20px;
+    justify-content: center; /* Center the product items */
+    margin-top: 20px; /* Added margin for spacing */
+  }
+  
+  /* Additional styling for load more button if needed */
+  .shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background-color: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  

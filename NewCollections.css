@@ -1,0 +1,29 @@
+
+.new-collections {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(1800deg, #fde1ff 0%, #e1ffea22 60%);
+    width: 97.3%;
+}
+
+.new-collections h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.new-collections hr {
+    width: 50px;
+    border: 2px solid #ff6347; /* Tomato color */
+    margin: 0 auto 30px;
+}
+
+.collections {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 70%;
+}

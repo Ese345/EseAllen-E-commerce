@@ -1,0 +1,108 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between; /* Changed from space-around to space-between */
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px -2px black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo p {
+  color: #171717;
+  font-size: 24px; /* Adjusted font size */
+  font-weight: 600;
+}
+
+.nav-logo img {
+  width: 40px; /* Adjusted width */
+  height: 40px; /* Adjusted height */
+  margin-right: 0.5rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem; /* Reduced gap */
+  align-items: center;
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 500;
+}
+
+.nav-menu li {
+  cursor: pointer;
+  display: flex; /* Added display flex */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #ff4141;
+}
+
+.nav-menu li:hover {
+  font-weight: bolder;
+}
+
+.nav-menu li:active {
+  color: #af0101;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Reduced gap */
+}
+
+.nav-login-cart button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  width: 120px; /* Adjusted width */
+  height: 40px; /* Adjusted height */
+  border-radius: 75px;
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 500;
+  background-color: #ff6347; /* Added background color */
+  border: 1px solid #ccc; /* Added border */
+  margin-bottom: 20px;
+}
+
+.nav-login-cart button:hover {
+  background-color: #ff4141;
+  color: #fff; /* Added text color on hover */
+}
+
+.nav-login-cart button:active {
+  background-color: #af0101;
+}
+
+.nav-login-cart img {
+  width: 25px; /* Adjusted width */
+  height: 25px; /* Adjusted height */
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px; /* Adjusted margin */
+  margin-left: -20px; /* Adjusted margin */
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}

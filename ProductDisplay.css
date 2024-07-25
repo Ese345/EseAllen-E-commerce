@@ -1,0 +1,132 @@
+.productdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    margin: 20px 130px;
+  }
+  
+  .productdisplay-left {
+    display: flex;
+    gap: 17px;
+  }
+  
+  .productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .productdisplay-img-list img {
+    height: 163px;
+  }
+  
+  .productdisplay-main-img {
+    width: 586px;
+    height: 700px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .productdisplay-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .productdisplay-right h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .productdisplay-right-star img {
+    width: 20px;
+  }
+  
+  .productdisplay-right-prices {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+  
+  .productdisplay-right-price-old {
+    font-size: 18px;
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .productdisplay-right-price-new {
+    font-size: 22px;
+    color: #ff4141;
+    font-weight: 700;
+  }
+  
+  .product-display-right-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .productdisplay-right-size {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .productdisplay-right-size h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .productdisplay-right-size div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .productdisplay-right-size div div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productdisplay-right-size div div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .productdisplay button {
+    padding: 10px 20px;
+    background-color: #ff4141;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productdisplay button:hover {
+    background-color: #e63939;
+  }
+  
+  .productdisplay-right-category {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .productdisplay-right-category span {
+    font-weight: 600;
+  }
+  
